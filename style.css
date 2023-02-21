@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;    
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+.container{
+    border-radius: 20px;
+    background-color: rgb(113, 114, 114);
+    margin: 10px;
+    position: relative;
+    display: block;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    padding: 20px 100px;
+}
+.btn{
+
+    font-family: 'Zen Dots', cursive;  
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(44, 44, 105);
+    color: white;
+}
+
+.btn:hover{
+    font-size: 20px;
+    background-color: rgb(68, 68, 97);
+    height: 70px;
+    width: 170px;
+    transition: 1s;
+}
